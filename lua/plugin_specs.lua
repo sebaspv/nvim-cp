@@ -39,6 +39,10 @@ local plugin_specs = {
     end,
   },
   {
+    'andweeb/presence.nvim',
+    config = function() require('presence').setup() end,
+  },
+  {
 	  'xeluxee/competitest.nvim',
 	  dependencies = 'MunifTanjim/nui.nvim',
 	  config = function() require('competitest').setup() end,

@@ -8,6 +8,7 @@ local M = {}
 -- the same as the colorscheme name itself.
 M.colorscheme2dir = {
   gruvbox_material = "gruvbox.nvim",
+  --catppuccin = "catppuccin.nvim"
 }
 
 M.gruvbox8 = function()

@@ -1,4 +1,3 @@
--- This is my personal Nvim configuration supporting Mac, Linux and Windows, with various plugins configured.
 -- This configuration evolves as I learn more about Nvim and become more proficient in using Nvim.
 -- Since it is very long (more than 1000 lines!), you should read it carefully and take only the settings that suit you.
 -- I would not recommend cloning this repo and replace your own config. Good configurations are personal,
@@ -46,3 +45,6 @@ for _, file_name in ipairs(core_conf_files) do
     require(module_name)
   end
 end
+
+vim.cmd.colorscheme("gruber-darker")
+

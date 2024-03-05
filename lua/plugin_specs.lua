@@ -135,6 +135,7 @@ local plugin_specs = {
   },
 
   -- A list of colorscheme plugin you may want to try. Find what suits you.
+  { "blazkowolf/gruber-darker.nvim", lazy = true },
   { "navarasu/onedark.nvim", lazy = true },
   { "sainnhe/edge", lazy = true },
   { "sainnhe/sonokai", lazy = true },
